@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin-left: 0.67em;
+    margin-bottom: 0.67em;
+}
+
+h2 {
+    margin-top: 1.25em;
+}
+
+input[type="text"] {
+    width: 26em;
+}
+
+input[type="number"] {
+    width: 12em;
+}
+
+#ctnResults table {
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+#ctnResults td {
+    border: 1px solid grey;
+    padding: 1px 4px;
+    height: 21px;
+}
+
+#ctnResults td:empty {
+    border: 0;
+}
+
+#ctnResults td:nth-child(n+2) {
+    min-width: 150px;
+    text-align: center;
+}
+
+#ctnResults tr:nth-child(1), #ctnResults tr:nth-child(2), #ctnResults tr:last-child {
+    font-weight: bold;
+}
+
+#ctnResults td:nth-child(2) {
+    background: palegreen;
+}
